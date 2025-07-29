@@ -18,7 +18,7 @@ console.log(gameName.indexOf('t'));
 const newString = gameName.substring(0,4); // here we cant give negative value because it will neglect the value 
 console.log(newString);  // hite
 
-const anotherString1 = gameName.slice(-8,4); // remarkable thing in this is, we can give negative value also , reverse it   **
+const anotherString1 = gameName.slice(-4); // remarkable thing in this is, we can give negative value also , reverse it   **
 console.log(anotherString1); 
 
 const newStringOne = "      akash        ";
